@@ -1,0 +1,21 @@
+# secrets
+.env
+
+# large / regenerable caches
+data/tmdb-cache/
+data/imdb/
+
+# OS noise
+.DS_Store
+
+# compiled OCR helper
+data/ocr-bin
+__pycache__/
+
+# personal inputs and results: never publish
+screenshots/*
+!screenshots/.gitkeep
+output/*
+!output/.gitkeep
+data/
+review/
